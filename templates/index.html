@@ -17,7 +17,7 @@
             var socket;            
             $(document).ready(function() {
                 // The http vs. https is important. Use http for localhost!
-                socket = io.connect('http://' + document.domain + ':' + location.port);
+                socket = io.connect('https://' + document.domain + ':' + location.port);
 
                 // Button was clicked
                 document.getElementById("send_button").onclick = function() {
